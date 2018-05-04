@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Minds.com - Night-Mode",
+  "version": "0.0.1",
+  "description": "Use a darker theme/night mode for minds.com",
+  "author": "Kevin Grahl",
+  "homepage_url": "https://kevingrahl.de",
+  "icons": { "48": "icon48.png",
+          "128": "icon128.png" },
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://www.minds.com/*"]
+  }]
+
+}
