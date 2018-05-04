@@ -331,3 +331,23 @@ m-topbar .m-topbar--account img {
 .minds-banner-card .minds-usercard-block img, minds-card-user .minds-usercard-block img {
     border: 1px solid #333!important;
 }
+
+m-search {
+    background: #222!important;
+}
+
+m-search .m-toolbar {
+    background: #222!important;
+}
+
+minds-card-user.mdl-card.mdl-color--white.m-border.m-search--entity.ng-star-inserted {
+    background-color: #222 !important;
+}
+
+minds-activity.mdl-card.mdl-color--white.m-border.m-search--entity.ng-star-inserted {
+    background-color: #222!important;
+}
+
+p.m-blurb.ng-star-inserted {
+    color: rgb(112, 140, 154) !important;
+}
