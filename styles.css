@@ -305,3 +305,11 @@ minds-activity minds-comments .mdl-card__menu, minds-activity-preview minds-comm
 .m-tagcloud-tag {
     color: #999;
 }
+
+m-topbar .m-topbar--account img {
+    border: 1px solid #333;
+}
+
+.minds-banner-card .minds-usercard-block img, minds-card-user .minds-usercard-block img {
+    border: 1px solid #333;
+}
