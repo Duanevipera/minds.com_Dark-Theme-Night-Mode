@@ -1,86 +1,106 @@
-.mdl-color--white {
-    background-color: #222!important;
+m-topbar.m-noshadow.mdl-color--white.mdl-color-text--grey-600 {
+    background: #222 !important;
 }
 
-.mdl-color--grey-100 {
-    background-color: #111 !important;
+m-body.mdl-color--grey-100 {
+    background: #111 !important;
 }
 
 m-topbar .m-topbar--logo {
-    background: #222;
+    background: #222!important;
 }
 
 m-search--bar .mdl-textfield input {
-    background: #111;
+    background: #111!important;
 }
 
 m-search--bar-suggestions .m-search-bar-suggestions-list .m-search-bar-suggestions-suggestion {
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #333!important;
 }
 
 m-search--bar-suggestions .m-search-bar-suggestions-list {
-    background: #222;
-    border: 1px solid #333;
-    color: #fff;
+    background: #222!important;
+    border: 1px solid #333!important;
+    color: #fff!important;
 }
 
 -search--bar-suggestions .m-search-bar-suggestions-context b {
-    color: #fff;
+    color: #fff!important;
 }
 
 .m-border{
-      border: 1px solid #333;
+      border: 1px solid #333!important;
+}
+
+m-tagcloud {
+    background: #0e0e0e!important;
 }
 
 .m-media-content--wrapper .m-media-content--container {
-    background: #222;
+    background: #222!important;
 }
 
 html {
-    color: #fff;
+    color: #fff!important;
 }
 
 .m-media-content--comments {
-    border: 1px solid #333;
+    border: 1px solid #333!important;
 }
 
 m-topbar {
-    border-bottom: 1px solid #333;
-    background: #222;
+    border-bottom: 1px solid #333!important;
+    background: #222!important;
 }
 
 .m-topbar--navigation--item {
-    border-top: 4px solid #222;
-    border-bottom: 4px solid #222;
-    color: #fff;
+    color: #fff!important;
+}
+
+a.m-topbar--navigation--item.ng-star-inserted {
+    border-top: 4px solid #222!important;
+    border-bottom: 4px solid #222!important;
+}
+
+.m-topbar--navigation--item.m-topbar--navigation--item-active {
+    border-top: 4px solid #4af!important;
+    color: #4690df!important;
 }
 
 .m-topbar--navigation--item i, m-topbar .m-topbar--icons i.material-icons {
-    color: #999;
+    color: #999!important;
 }
 
 .mdl-card, .minds-avatar {
-    background: #0e0e0e;
+    background-color: #0e0e0e!important;
 }
 
-.mdl-color--blue-grey-50 {
-    background-color: #212121!important;
+ions--flyout--bottom-container.mdl-color--blue-grey-50.mdl-color-text--blue-grey-200 {
+    background: #212121!important;
+}
+
+table__cell--non-numeric.m-data-title, table__cell--numeric.m-data-title {
+    color: #fff!important;
+}
+
+.m-card--large {
+    background: #222!important;
 }
 
 m-notifications--flyout .notifications-grid .mdl-cell--12-col minds-notification {
-    border-bottom: 1px solid #212121;
+    border-bottom: 1px solid #212121!important;
 }
 
 minds-activity .mdl-card__supporting-text, minds-activity-preview .mdl-card__supporting-text, minds-activity.mdl-card .mdl-card__supporting-text {
-    color: #fff;
+    color: #fff!important;
 }
 
 .mdl-card__supporting-text, .m-owner-block a, .mdl-card__supporting-text textarea {
-    color: #fff;
+    color: #fff!important;
 }
 
 m-app .mdl-card__title-text {
-    color: #999;
+    color: #999!important;
 }
 
 .mdl-color-text--blue-grey-900 {
@@ -89,209 +109,207 @@ m-app .mdl-card__title-text {
 
 .m-read-more--button {
     background: -webkit-gradient(linear,left top,left bottom,from(rgba(14, 14, 14, 0.5)),color-stop(50%,#0e0e0e));
-    background: linear-gradient(to bottom,rgba(14, 14, 14, 0.5) 0,#0e0e0e 50%);
+    background: linear-gradient(to bottom,rgba(14, 14, 14, 0.5) 0,#0e0e0e 50%)!important;
 }
 
 .m-messenger--dockpane .m-messenger--dockpane-tab {
-    background: #222;
-    color: #fff;
-    border: 1px solid #333;
+    background: #222!important;
+    color: #fff!important;
+    border: 1px solid #333!important;
 }
 
 .m-messenger--dockpane.m-messenger--dockpane-open .m-messenger--dockpane-container {
-    background: #222;
+    background: #222!important;
 }
 
 .m-messenger--userlist .m-messenger--userlist-search {
-    background: #222;
+    background: #222!important;
 }
 
 .m-messenger--userlist .m-messenger--userlist-search>input {
-    background-color: #222;
-    color: #fff;
+    background-color: #222!important;
+    color: #fff!important;
 }
 
 .m-messenger--dockpane.m-messenger--dockpane-open .m-messenger--dockpane-tab {
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #333!important;
 }
 
 minds-third-party-networks-selector .m-bar-wrapper {
-    background: #222;
+    background: #222!important;
 }
 
 minds-third-party-networks-selector .m-bar-wrapper:before {
-    border-color: transparent transparent transparent #222;
+    border-color: transparent transparent transparent #222!important;
 }
 
 .m-dropdown--list {
-    border: 1px solid #333;
-    background-color: #222;
+    border: 1px solid #333!important;
+    background-color: #222!important;
 }
 
 .m-wire-threshold-input .m-dropdown--list .m-dropdown--list--item .m-wire-threshold--custom input {
-    color: #fff;
+    color: #fff!important;
 }
 
 .m-comment-wrapper .m-comments-composer form minds-textarea, .m-comment-wrapper .minds-editable-container textarea, minds-comments .m-comments-composer form minds-textarea, minds-comments .minds-editable-container textarea {
-    background: #222;
+    background: #222!important;
 }
 
 minds-textarea {
-    border: 1px solid #333;
+    border: 1px solid #333!important;
 }
 
 .m-channels--tile[_ngcontent-c3] .m-channels--tile-block[_ngcontent-c3] h3[_ngcontent-c3] {
-    color: #fff;
+    color: #fff!important;
 }
 
 .m-channels--tile[_ngcontent-c3] .m-channels--tile-block[_ngcontent-c3] span[_ngcontent-c3] {
-    color: #999;
+    color: #999!important;
 }
 
 .m-channels--tile[_ngcontent-c3], .m-media--videos--tile .m-media--videos--tile-title {
-    background: #222;
+    background: #222!important;
 }
 
 .m-btn, .m-blog--tile .m-blog--tile-title label, .m-media--videos--tile .m-media--videos--tile-title label {
-    color: #fff;
+    color: #fff!important;
 }
 
 .m-blog--tile, minds-card {
-    background: #222;
+    background: #222!important;
 }
 
 .m-title-block, .m-title-block-fixed {
-    background-color: #222;
+    background-color: #222!important;
 }
 
 .m-blog--tile .m-blog--tile-title p {
-    color: #999;
+    color: #999!important;
 }
 
 m-blog-view, minds-blog-view {
-    background: #222;
+    background: #222!important;
 }
 
 .mdl-menu__item, .minds-blog-body p {
-    color: #fff;
+    color: #fff!important;
 }
 
 m-blog-view a, minds-blog-view a {
-    color: #607d8b;
+    color: #607d8b!important;
 }
 
 .minds-dropdown-menu {
-    background-color: #0e0e0e;
+    background-color: #0e0e0e!important;
 }
 
 .mdl-menu__item:hover {
-    background-color: #333;
+    background-color: #333!important;
 }
 
 m-modal-remind-composer .m-modal-remind-composer textarea {
-    border: 1px solid #333;
-    background-color: #222;
-    color: #fff;
+    border: 1px solid #333!important;
+    background-color: #222!important;
+    color: #fff!important;
 }
 
 .m-comment-wrapper .m-comment-attachment .m-rich-embed, .m-comment-wrapper .m-comments-composer .m-rich-embed, .m-comment-wrapper .m-editable-attachment-container .m-rich-embed, minds-comments .m-comment-attachment .m-rich-embed, minds-comments .m-comments-composer .m-rich-embed, minds-comments .m-editable-attachment-container .m-rich-embed {
-    background: #333;
-    border: 1px solid #444;
+    background: #333!important;
+    border: 1px solid #444!important;
 }
 
 .m-groups--tile .m-groups--tile-block span {
-    color: #999;
+    color: #999!important;
 }
-
 
 .m-token-contributions--overview .m-token-contributions--overview--row span, m-app .mdl-card__title-text, .m-groups--tile .m-groups--tile-block h3, .mdl-tabs__tab, .m-token-contributions--chart .m-token-contributions--algo, minds-notification.mdl-card .body a {
-    color: #fff;
+    color: #fff!important;
 }
 
-
 .m-wallet--balance, .m-token-contributions--chart, .m-groups--tile, .m-token-contributions--overview {
-    background: #222;
+    background: #222!important;
 }
 
 .m-wallet--balance h3, .m-wallet--balance--addresses>span, .m-wallet--balance--addresses .m-wallet--balance--addresses-address .m-wallet--balance--addresses-address-label, .m-wallet--balance--testnet p {
-    color: #fff;
+    color: #fff!important;
 }
 
 .m-page .m-page--sidebar--navigation--item {
-    border: 1px solid #333;
-    background: #222;
+    border: 1px solid #333!important;
+    background: #222!important;
 }
 
 a {
-    color: #96c3d8;
+    color: #96c3d8!important;
 }
 
 .m-token-contributions--ledger-filters {
-    background: #222;
+    background: #222!important;
 }
 
 .mdl-data-table {
-    background-color: #222;
-    color: #fff;
+    background-color: #222!important;
+    color: #fff!important;
 }
 
 .mdl-data-table tbody tr:hover {
-    background-color: #333;
+    background-color: #333!important;
 }
 
 .m-token-contributions--chart .m-token-contributions--chart--item {
-    border: 1px solid #444;
-    background: #333;
-    color: #fff;
+    border: 1px solid #444!important;
+    background: #333!important;
+    color: #fff!important;
 }
 
 m-date-selector .m-date-selector--input input, .m-token-contributions--chart .m-token-contributions--chart--header i {
-    color: #fff;
+    color: #fff!important;
 }
 
 m-date-selector .m-date-selector--input {
-    background-color: #333;
-    color: #fff;
-    border: 1px solid #444;
+    background-color: #333!important;
+    color: #fff!important;
+    border: 1px solid #444!important;
 }
 
 .c-datepicker, .c-datepicker__back, .c-datepicker__next, .c-datepicker__toggle {
-    background: #444;
+    background: #444!important;
 }
 
 m-settings--section {
-    background: #222;
+    background: #222!important;
 }
 
 .m-input {
-    border: 1px solid #444;
+    border: 1px solid #444!important;
 }
 
 .m-activity--metrics .m-activity--metrics-inner {
-    background-color: #333;
-    color: #fff;
+    background-color: #333!important;
+    color: #fff!important;
 }
 
 .m-overlay-modal {
-    background: #222;
-    color: #fff;
+    background: #222!important;
+    color: #fff!important;
 }
 
 .m-faq--container--category .m-faq--nav, .m-faq--tiles .m-faq--tiles--category {
-    background: #222;
+    background: #222!important;
 }
 
 .m-faq--container--category, .m-faq--container--category .m-faq--question h3 {
-    color: #fff;
+    color: #fff!important;
 }
 
 .m-faq--container--category .m-faq--question {
-    color: #999;
-    background: #222;
+    color: #999!important;
+    background: #222!important;
 }
 
 .mdl-textfield__label, .m-boost--creator .m-boost--creator-selector>li .m-boost--creator-selector--description, .m-faq--page h2, .m-tagcloud h3 {
-    color: #fff;
+    color: #fff!important;
 }
 
 .mdl-color-text--blue-grey-800 {
@@ -299,17 +317,17 @@ m-settings--section {
 }
 
 minds-activity minds-comments .mdl-card__menu, minds-activity-preview minds-comments .mdl-card__menu, minds-activity.mdl-card minds-comments .mdl-card__menu {
-    background: #0e0e0e;
+    background: #0e0e0e!important;
 }
 
 .m-tagcloud-tag {
-    color: #999;
+    color: #999!important;
 }
 
 m-topbar .m-topbar--account img {
-    border: 1px solid #333;
+    border: 1px solid #333!important;
 }
 
 .minds-banner-card .minds-usercard-block img, minds-card-user .minds-usercard-block img {
-    border: 1px solid #333;
+    border: 1px solid #333!important;
 }
