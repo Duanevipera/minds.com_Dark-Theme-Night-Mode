@@ -42,6 +42,7 @@ m-tagcloud {
 
 html {
     color: #fff!important;
+    background-color: #0e0e0e!important;
 }
 
 .m-media-content--comments {
@@ -355,4 +356,67 @@ p.m-blurb.ng-star-inserted {
 textarea.mdl-card__supporting-text.message.ng-pristine.ng-valid.ng-touched {
     background-color: #222!important;
     border: 1px solid #333;
+}
+
+m-login.ng-star-inserted {
+    background: #0e0e0e!important;
+}
+
+minds-form-login input, minds-form-register input {
+    background-color: #222!important;
+    border: 1px solid #aaaaaa!important;
+    color: #fff!important;
+}
+
+minds-comments {
+    background-color: #222!important;
+}
+
+.mdl-grid.m-media-content--comments.mdl-color--white.ng-star-inserted {
+    background-color: #222!important;
+    border: 1px solid #222!important;
+}
+
+.m-media-content--owner > .minds-avatar {
+    background: #222!important;
+}
+
+.mdl-card.mdl-shadow--2dp.ng-star-inserted {
+    color: #fff!important;
+}
+
+.mdl-card__supporting-text.mdl-color-text--grey-600.m-wire-channel--rewards {
+    color: #fff!important;
+}
+
+table.m-wire-channel--rewards.m-wire-channel--rewards-tokens {
+    color: #fff!important;
+}
+
+span.ng-star-inserted {
+    color: #fff!important;
+}
+
+span.minds-counter.ng-star-inserted {
+    color: #607d8b!important;
+}
+
+.m-settings--section.m-layout--row.m-border {
+    background: #222!important;
+}
+
+.m-settings--section.m-border {
+    background: #222!important;
+}
+
+input#name {
+    color: #fff!important;
+}
+
+.m-notifications--flyout--bottom-container.mdl-color--blue-grey-50.mdl-color-text--blue-grey-200 {
+    background: #4c4c4c!important;
+}
+
+.m-token--ledger-filters.m-border.ng-star-inserted, .m-token--ledger--reward.m-border.ng-star-inserted {
+    background: #222!important;
 }
